@@ -6,15 +6,18 @@ import random
 import websocket
 from datetime import datetime
 from colorama import init, Fore, Back, Style
+import pyfiglet
+from colorama import Fore
 
 init(autoreset=True)
-
+text = pyfiglet.figlet_format("Martin Si Hacker Sunda Awkokwko")
+print(Fore.YELLOW + text)
 def print_banner():
     banner = f"""
 {Fore.CYAN}{Style.BRIGHT}╔══════════════════════════════════════════════╗
 ║          BlockMesh Network AutoBot           ║
-║     Github: https://github.com/IM-Hanzou     ║
-║      Welcome and do with your own risk!      ║
+║     Github: https://github.com/Martean69     ║
+║        Kena sybill resiko anda wkwkwk        ║
 ╚══════════════════════════════════════════════╝
 """
     print(banner)
