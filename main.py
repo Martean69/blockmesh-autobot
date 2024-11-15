@@ -10,7 +10,7 @@ import pyfiglet
 from colorama import Fore
 
 init(autoreset=True)
-text = pyfiglet.figlet_format("Martin Si Hacker Sunda Awkokwko")
+text = pyfiglet.figlet_format("Martin Si Hacker Sunda Awkokw")
 print(Fore.YELLOW + text)
 def print_banner():
     banner = f"""
